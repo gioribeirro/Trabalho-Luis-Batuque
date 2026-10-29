@@ -1,0 +1,62 @@
+/* Batuque — design tokens */
+:root {
+  --accent: #F0783C;
+  --on-accent: #FFFFFF;
+  --accent-text: var(--accent);
+  --bg: #FAFAFA;
+  --surface: #FFFFFF;
+  --surface-2: #F3F4F6;
+  --surface-3: #ECEDEF;
+  --text: #1C1F24;
+  --text-muted: #6B7078;
+  --border: #E6E8EB;
+  --frame: #EEEFF1;
+  --accent-soft: color-mix(in srgb, var(--accent) 14%, white);
+  --accent-line: color-mix(in srgb, var(--accent) 35%, white);
+  --track-off: color-mix(in srgb, var(--text) 10%, transparent);
+
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --fs-base: 13px;
+  --fs-small: 12px;
+  --fs-tiny: 11px;
+  --fs-title: 40px;
+  --fs-section: 20px;
+
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 20px; --sp-6: 24px; --sp-8: 32px;
+  --gap: 16px;
+  --page-pad: 28px;
+
+  --r-card: 13px;
+  --r-btn: 9px;
+  --r-cover: 9px;
+  --r-pill: 999px;
+
+  --shadow-1: 0 1px 2px rgba(20, 24, 30, .04), 0 2px 8px rgba(20, 24, 30, .03);
+  --shadow-2: 0 10px 30px -12px rgba(20, 24, 30, .22), 0 2px 6px rgba(20, 24, 30, .05);
+  --shadow-accent: 0 8px 20px -8px color-mix(in srgb, var(--accent) 70%, transparent);
+
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --dur: 200ms;
+  --topbar-h: 68px;
+  --sidebar-w: 218px;
+  --player-h: 72px;
+}
+
+[data-theme="escuro"] {
+  --bg: #20242A;
+  --surface: #282C32;
+  --surface-2: #31353C;
+  --surface-3: #383C43;
+  --text: #F2F3F5;
+  --text-muted: #A1A3A8;
+  --border: rgba(255, 255, 255, .10);
+  --frame: #1A1D22;
+  --accent-soft: color-mix(in srgb, var(--accent) 22%, var(--surface));
+  --accent-line: color-mix(in srgb, var(--accent) 45%, var(--surface));
+  --track-off: rgba(255, 255, 255, .12);
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, .2);
+  --shadow-2: 0 14px 34px -14px rgba(0, 0, 0, .6);
+}
+
+[data-density="compacta"] { --fs-base: 12px; --gap: 10px; --page-pad: 20px; --fs-title: 34px; }
+[data-density="ampliada"] { --fs-base: 15px; --fs-small: 13.5px; --fs-tiny: 12px; --gap: 22px; --page-pad: 34px; --fs-title: 46px; --fs-section: 22px; }

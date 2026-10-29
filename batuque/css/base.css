@@ -1,0 +1,34 @@
+/* Batuque — reset, tipografia, utilitários */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0; font-family: var(--font); font-size: var(--fs-base); line-height: 1.45;
+  color: var(--text); background: var(--frame); -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, p { margin: 0; }
+a { color: inherit; text-decoration: none; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; background: none; border: 0; padding: 0; }
+img { display: block; max-width: 100%; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+::selection { background: var(--accent-soft); }
+
+.ico { width: 18px; height: 18px; flex: none; }
+.eyebrow { font-size: var(--fs-tiny); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--text-muted); }
+.eyebrow--accent { color: var(--accent-text); font-weight: 700; }
+.page-title { font-size: var(--fs-title); font-weight: 800; letter-spacing: -.02em; line-height: 1.1; margin: 6px 0 4px; }
+.page-sub { color: var(--text-muted); font-size: var(--fs-base); }
+.section-title { font-size: var(--fs-section); font-weight: 700; letter-spacing: -.01em; }
+.panel-title { font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: .01em; }
+.t-strong { font-weight: 700; font-size: 14px; }
+.muted { color: var(--text-muted); }
+.small { font-size: var(--fs-small); }
+.tiny { font-size: var(--fs-tiny); }
+.accent-text { color: var(--accent-text); }
+.grow { flex: 1; min-width: 0; }
+.row { display: flex; align-items: center; gap: var(--sp-3); }
+.stack > * + * { margin-top: var(--sp-3); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.footnote { font-size: var(--fs-tiny); color: var(--text-muted); margin-top: var(--sp-8); }
+.ellipsis { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
