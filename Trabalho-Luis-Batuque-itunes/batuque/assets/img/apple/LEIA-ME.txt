@@ -1,0 +1,12 @@
+BADGE OFICIAL DA APPLE — PENDENTE
+=================================
+O Batuque exibe a atribuição "Provided courtesy of iTunes" com link direto para a faixa/álbum
+e reserva espaço para o badge oficial aprovado pela Apple.
+
+Para ativar o badge, coloque aqui o arquivo OFICIAL baixado das ferramentas de marketing da Apple
+(Apple Music / iTunes badges), com este nome exato:
+
+    listen-on-apple-music.svg
+
+Enquanto o arquivo não existir, o elemento do badge é removido automaticamente (onerror) e só
+o texto de atribuição com o link aparece. NÃO desenhe nem substitua por imagem improvisada.
