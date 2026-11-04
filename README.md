@@ -29,3 +29,4 @@ batuque/
 └── assets/ img/capas · img/apple
 ```
 Notas e avaliações da comunidade são conteúdo de demonstração.
+file:///C:/Users/giova/Downloads/Trabalho-Luis-Batuque-main/Trabalho-Luis-Batuque-main/Trabalho-Luis-Batuque-itunes/batuque/index.html#/inicio
