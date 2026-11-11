@@ -30,3 +30,12 @@ batuque/
 ```
 Notas e avaliações da comunidade são conteúdo de demonstração.
 file:///C:/Users/giova/Downloads/Trabalho-Luis-Batuque-main/Trabalho-Luis-Batuque-main/Trabalho-Luis-Batuque-itunes/batuque/index.html#/descobrir
+
+ Backend (pasta backend/)
+
+É Node.js + Express + SQLite, sem banco para instalar, porque o arquivo do banco é criado sozinho.
+
+
+## Para rodar
+
+-cd backend; npm install; npm start
